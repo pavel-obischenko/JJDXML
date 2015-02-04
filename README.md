@@ -25,12 +25,12 @@ NSDictionary* dictionary = [xmlData xmlValue];
 Parsing HTML
 ```objc
 NSString* htmlString = ....
-NSDictionary* dictionary = [htmlString xmlValue];
+NSDictionary* dictionary = [htmlString htmlValue];
 ```
 or
 ```objc
 NSData* htmlData = ....
-NSDictionary* dictionary = [htmlData xmlValue];
+NSDictionary* dictionary = [htmlData htmlValue];
 ```
 Getting node name
 ```objc
